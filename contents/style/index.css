@@ -1,21 +1,21 @@
 @font-face {
     font-family: audiowide;
-    src: url(/Users/Zakkorr.me/contents/assets/fonts/Audiowide/Audiowide-Regular.ttf);
+    src: url(contents/assets/fonts/Audiowide/Audiowide-Regular.ttf);
 }
 
 @font-face {
     font-family: orbitron;
-    src: url(/Users/Zakkorr.me/contents/assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+    src: url(contents/assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: cherry bomb;
-    src: url(/Users/Zakkorr.me/contents/assets/fonts/Cherry_Bomb_One/CherryBombOne-Regular.ttf);
+    src: url(contents/assets/fonts/Cherry_Bomb_One/CherryBombOne-Regular.ttf);
 }
 
 @font-face {
     font-family: sixtyfour;
-    src: url(/Users/Zakkorr.me/contents/assets/fonts/Sixtyfour/Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf);
+    src: url(contents/assets/fonts/Sixtyfour/Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf);
 }
 
 body {
