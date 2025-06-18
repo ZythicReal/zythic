@@ -1,21 +1,21 @@
 @font-face {
     font-family: audiowide;
-    src: url(contents/assets/fonts/Audiowide/Audiowide-Regular.ttf);
+    src: url('contents/assets/fonts/Audiowide/Audiowide-Regular.ttf');
 }
 
 @font-face {
     font-family: orbitron;
-    src: url(contents/assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+    src: url('contents\assets\fonts\Orbitron\Orbitron-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: cherry bomb;
-    src: url(contents/assets/fonts/Cherry_Bomb_One/CherryBombOne-Regular.ttf);
+    src: url('contents/assets/fonts/Cherry_Bomb_One/CherryBombOne-Regular.ttf');
 }
 
 @font-face {
     font-family: sixtyfour;
-    src: url(contents/assets/fonts/Sixtyfour/Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf);
+    src: url('contents/assets/fonts/Sixtyfour/Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf');
 }
 
 body {
@@ -151,7 +151,7 @@ body {
     background-color: rgb(32, 36, 40);
     border-top: 10px solid aqua;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "logo content more important"
         "legal legal legal legal";
 }
@@ -163,14 +163,14 @@ body {
 }
 
 .footer-grid a {
-    color:aquamarine;
+    color: aquamarine;
     text-decoration: underline;
     font-size: 15px;
     font-family: sixtyfour;
 }
 
 .footer-grid a:hover {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -193,6 +193,7 @@ body {
 .footer-grid-other {
     grid-area: more;
 }
+
 .footer-grid-important {
     grid-area: important;
 }
@@ -262,6 +263,7 @@ p {
     letter-spacing: 3px;
     text-align: left;
 }
+
 .useless-info-title {
     font-weight: bold;
 }
