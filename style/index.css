@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Audiowide;
+    src: url(assets/fonts/Audiowide/Audiowide-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cherrybomb;
+    src: url(assets/fonts/Cherry_Bomb_One/CherryBombOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url(assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Sixtyfour;
+    src: url(assets/fonts/Sixtyfour/Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf);
+}
+
+h1 {
+    font-family: Audiowide, monospace;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+}
