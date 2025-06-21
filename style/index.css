@@ -36,15 +36,19 @@ p {
 }
 
 .header-el {
+    text-align: center;
+    display: inline;
+}
+
+.header-el a {
     font-family: Audiowide, monospace;
     font-size: 10px;
     text-align: center;
     padding: 20px;
     font-size: 50px;
-    display: inline;
-
+    color: aliceblue;
 }
 
-::hover .header-el {
+.header-el a:hover {
     color: #7ef4ff;
 }
