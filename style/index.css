@@ -1,9 +1,11 @@
-body {
-    background-image: url(assets\images\bg.png);
+#bg {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
 }
 
 .header {
-    background-color: rgba(0, 0, 0, 0.523);
+    background-color: rgb(0, 1, 26);
     padding: 30px 0;
     text-align: center;
     position: fixed;
@@ -44,7 +46,7 @@ body {
     color: aliceblue;
     font-size: 40px;
     font-family: Audiowide, monospace;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .body p {
