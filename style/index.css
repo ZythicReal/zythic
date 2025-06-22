@@ -1,11 +1,13 @@
-body {
-    background-color: rgb(27, 27, 105);
+strong {
+    font-weight: bold;
 }
 
 .header {
     background-color: rgba(0, 0, 0, 0.523);
     padding: 30px 0;
     text-align: center;
+        position: fixed;
+        width: 100%;
 }
 
 .header-el {
@@ -30,21 +32,41 @@ body {
 .body {
     text-align: center;
     color: aliceblue;
-    width: 70%;
+    padding: 100px 30px;
+    margin: 0 250px;
+    background-color: rgba(0, 0, 0, 0.523);
 }
 
 .body h1 {
     text-align: center;
     color: aliceblue;
-    width: 70%;
+    font-size: 40px;
+    font-family: Audiowide, monospace;
+    padding: 20px 0;
 }
 
 .body p {
     text-align: center;
     color: aliceblue;
-    width: 70%;
+    font-family: Orbitron, monospace;
+    font-size: 20px;
+    padding: 10px 0;
+    line-height: 30px;
+    letter-spacing: 2px;
 }
 
-footer {
+.intro {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer {
     color: aliceblue;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(9, 0, 45);
+    padding: 40px 40px;
+    font-family: Sixtyfour, monospace;
+
+    bottom: 0;
 }
