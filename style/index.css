@@ -1,19 +1,21 @@
-strong {
-    font-weight: bold;
+body {
+    background-image: url(assets\images\bg.png);
 }
 
 .header {
     background-color: rgba(0, 0, 0, 0.523);
     padding: 30px 0;
     text-align: center;
-        position: fixed;
-        width: 100%;
+    position: fixed;
+    top: auto;
+    width: 100%;
 }
 
 .header-el {
     text-align: center;
     display: inline;
     text-align: center;
+
 }
 
 .header-el a {
@@ -55,15 +57,9 @@ strong {
     letter-spacing: 2px;
 }
 
-.intro {
-    text-align: center;
-    vertical-align: middle;
-}
-
 .footer {
     color: aliceblue;
     text-align: center;
-    width: 100%;
     background-color: rgb(9, 0, 45);
     padding: 40px 40px;
     font-family: Sixtyfour, monospace;
