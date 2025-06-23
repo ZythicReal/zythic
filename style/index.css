@@ -71,6 +71,13 @@ a:hover {
     bottom: 0;
 }
 
+.footer-links {
+    padding: 30px 0;
+    font-size: 20px;
+    font-family: Sixtyfour, monospace;
+    display: block;
+}
+
 #bg {
     position: fixed;
     width: 100%;
